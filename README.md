@@ -31,6 +31,10 @@ merge in night.
 
 ||| end - enter |||
 ```
+
+Current human in the loop implementation. WIP is semantic matching responses to guidance corpus for auto pruning/generation for a dynamic "memory" corpus. 
+
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#00aaff', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#00aaff', 'lineColor': '#00aaff', 'secondaryColor': '#005f7f', 'tertiaryColor': '#005f7f', 'clusterBkg': '#003f5f', 'clusterBorder': '#00aaff', 'fontSize': '12px'}}}%%
 graph TD
