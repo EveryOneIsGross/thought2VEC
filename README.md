@@ -62,26 +62,31 @@ graph TD
     L --> D[Retrain Word2Vec Model]
     D --> E
 
-    subgraph Input
+ subgraph Input
+        style Input fill:none,stroke:none,color:#ffaa00
         A
     end
 
     subgraph Preprocess
+        style Preprocess fill:none,stroke:none,color:#ffaa00
         B
         C
     end
 
-    subgraph Word2Vec Model
+    subgraph Word2Vec
+        style Word2Vec fill:none,stroke:none,color:#ffaa00
         D
     end
 
-    subgraph Search and Feedback
+    subgraph SearchAndFeedback
+        style SearchAndFeedback fill:none,stroke:none,color:#ffaa00
         E
         F
         G
     end
 
-    subgraph Update Corpus
+    subgraph UpdateCorpus
+        style UpdateCorpus fill:none,stroke:none,color:#ffaa00
         H
         I
         J
