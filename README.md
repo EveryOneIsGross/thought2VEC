@@ -36,7 +36,7 @@ Current human in the loop implementation. WIP is semantic matching responses to 
 
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#00aaff', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#00aaff', 'lineColor': '#00aaff', 'secondaryColor': '#005f7f', 'tertiaryColor': '#005f7f', 'clusterBkg': '#003f5f', 'clusterBorder': '#00aaff', 'fontSize': '12px'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffaa00', 'primaryTextColor': '#ffaa00', 'primaryBorderColor': '#ffaa00', 'lineColor': '#ffaa00', 'secondaryColor': '#ffaa00', 'tertiaryColor': '#ffaa00', 'clusterBkg': 'none', 'clusterBorder': 'none', 'fontSize': '20px'}}}%%
 graph TD
     A[File Path Input] --> B[Read and Preprocess]
     B -->|Chunks| C[Corpus]
