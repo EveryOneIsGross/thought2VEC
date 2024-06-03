@@ -38,6 +38,11 @@ Current human in the loop implementation. WIP is semantic matching responses to 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffaa00', 'primaryTextColor': '#000000', 'primaryBorderColor': '#ffaa00', 'lineColor': '#ffaa00', 'secondaryColor': '#ffaa00', 'tertiaryColor': '#ffaa00', 'clusterBkg': 'none', 'clusterBorder': 'none', 'fontSize': '20px'}}}%%
 graph TD
+    style Input fill:none,stroke:none
+    style Preprocess fill:none,stroke:none
+    style Word2Vec fill:none,stroke:none
+    style SearchAndFeedback fill:none,stroke:none
+    style UpdateCorpus fill:none,stroke:none
     A[File Path Input] --> B[Read and Preprocess]
     B -->|Chunks| C[Corpus]
     C --> D[Train Word2Vec Model]
